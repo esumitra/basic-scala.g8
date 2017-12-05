@@ -10,8 +10,9 @@ A basic scala template for use with SBT. It provides the following features.
 The project requires Java 8, Scala 2.11.8 and sbt 0.13.16 environment to run.
 
 ### Creating a new project
- -  Run the command below and enter the properties for your project
-  `sbt new esumitra/basic-scala.g8`
+Run the command below and enter the properties for your project
+
+`sbt new esumitra/basic-scala.g8`
 
 cd into your project directory to run SBT commands
 
