@@ -1,12 +1,28 @@
-A [Giter8][g8] template for ...!
+## Basic Scala Project Template
+A basic scala template for use with SBT. It provides the following features.
 
-Template license
-----------------
-Written in <YEAR> by <AUTHOR NAME> <AUTHOR E-MAIL ADDRESS>
-[other author/contributor lines as appropriate]
+ - Assembly plugin to generate "fat" jars
+ - Typesafe configuration to use an application.conf file for running the application with different configurations
+ - Scalaz for functional programming helpers
+ - Specs2 test example
+ - ScalaCheck test example
 
-To the extent possible under law, the author(s) have dedicated all copyright and related
-and neighboring rights to this template to the public domain worldwide.
-This template is distributed without any warranty. See <http://creativecommons.org/publicdomain/zero/1.0/>.
+The project requires Java 8, Scala 2.11.8 and sbt 0.13.16 environment to run.
 
-[g8]: http://www.foundweekends.org/giter8/
+### Creating a new project
+ -  Run the command below and enter the properties for your project
+  `sbt new esumitra/basic-scala.g8`
+
+cd into your project directory to run SBT commands
+
+### Getting started
+ Use the following commands to get started with your project
+
+ - Compile: `sbt compile`
+ - Create a "fat" jar: `sbt assembly`
+ - Run tests: `sbt test`
+
+### License
+Copyright 2017, Edward Sumitra
+
+Licensed under the Apache License, Version 2.0.
