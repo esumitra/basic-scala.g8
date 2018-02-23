@@ -7,7 +7,7 @@ object Dependencies {
   )
 
   lazy val core = Seq(
-    "org.scalaz" %% "scalaz-core" % "7.2.13",
+    "org.scalaz" %% "scalaz-core" % "7.2.19",
     "com.typesafe" % "config" % "1.3.1"
   )
 }

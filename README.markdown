@@ -7,7 +7,7 @@ A basic scala template for use with SBT. It provides the following features.
  - Specs2 test example
  - ScalaCheck test example
 
-The project requires Java 8, Scala 2.11.8 and sbt 0.13.16 environment to run.
+The project requires Java 8, Scala 2.12.1 and sbt 0.13.16 environment to run.
 
 ### Creating a new project
 Run the command below and enter the properties for your project
@@ -24,6 +24,6 @@ cd into your project directory to run SBT commands
  - Run tests: `sbt test`
 
 ### License
-Copyright 2017, Edward Sumitra
+Copyright 2018, Edward Sumitra
 
 Licensed under the Apache License, Version 2.0.
